@@ -2,6 +2,8 @@
 """ holds class Place"""
 import models
 from models.base_model import BaseModel, Base
+from models.city import City
+from models.user import User
 from os import getenv
 import sqlalchemy
 from sqlalchemy import Column, String, Integer, Float, ForeignKey, Table

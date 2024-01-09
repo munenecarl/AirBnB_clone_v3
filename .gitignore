@@ -1,1 +1,5 @@
 .venv
+*.pyc
+sys
+.vscode
+test_path.py
